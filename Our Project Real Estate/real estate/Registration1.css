@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+
+body{
+    background-image: url(myimg/lading.jpg);
+    background-repeat: no-repeat fixed;
+    background-size: cover;
+    
+    
+}
+
+
+.field{
+    border: inherit;
+    background: #eaffca4a;
+    border-radius: 4.2rem;
+    height: 7rem;
+    width: 444%;
+    /* margin-left: 50%; */
+    /* content: inherit; */
+    position: relative;
+    left: 45rem;
+    margin-left: -100;
+    /* margin-right: 90%; */
+    width: 73px;
+    padding: 70px 0;
+    /* border: 3px solid green; */
+    align-content: inherit;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.form-field{
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    background: mintcream;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.button-class{
+    margin-top: 2.2rem;
+    width: 50px;
+    border-radius: 10px;
+    color: 4px solid black;
+    background: black;
+    color: white;
+    align-items: center;
+    margin-left: 100px;
+    width: 6rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+

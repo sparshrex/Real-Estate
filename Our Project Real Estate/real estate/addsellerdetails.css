@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700;800&family=Zen+Loop&display=swap');
+
+
+
+body::before{
+    /* background: var(--color-darkblue); */
+    content: "";
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+    background-image: linear-gradient(
+        45deg,
+        
+        rgb(84, 180, 99),
+        rgba(223, 171, 81, 0.942)
+        
+        
+      ),
+      url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+    opacity: 0.9;
+    z-index: -2;
+    
+}
+
+.font{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Zen Loop', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+    
+    
+}
+
+.innerfont{
+    font-weight: bold;
+    font-size: 1.8rem;
+}

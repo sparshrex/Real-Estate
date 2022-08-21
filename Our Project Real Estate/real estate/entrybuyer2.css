@@ -1,0 +1,33 @@
+body::before{
+    /* background: var(--color-darkblue); */
+    content: "";
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+    background-image: url(myimg/realestate5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+    opacity: 0.9;
+    z-index: -2;
+    
+}
+
+.button-class{
+    margin-top: 2.2rem;
+    
+    border-radius: 16px;
+    color: 4px solid rgb(178, 85, 85);
+    background: rgb(121, 209, 125);
+    color: white;
+    align-items: center;
+    margin-left: 225px;
+    
+}
+
+.table-head{
+    color: white;
+    background-color: #0e090e;
+    width: 64.525px;
+}
